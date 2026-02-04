@@ -1,0 +1,464 @@
+.index-wp {
+    background-image: url("../src/img/gv.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100px 0 0;
+}
+
+#text-cicilan {
+    width: 50%;
+}
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 24px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-icon:hover {
+    background-color: #20b858;
+    text-decoration: none;
+}
+
+.header-promo {
+    border-radius: 2.5rem !important;
+    padding: 0.2rem;
+    color: white;
+}
+
+.iframe-container {
+    position: relative;
+    width: 100% !important;
+    padding-top: 56.25% !important;
+    overflow: hidden;
+}
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.advantage-icons {
+    width: 18%;
+    height: 18%;
+    background-color: #387F39;
+    fill: black;
+    border-radius: 100%;
+}
+
+.facility-icons {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.location-icons {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.hide-on-mobile {
+    display: none;
+}
+
+#btn-claim-sm {
+    display: none;
+}
+
+.bg-primary-green {
+    background-color: #387F39;
+}
+
+.bg-secondary-cream {
+    background-color: #F6E96B;
+}
+
+#h1-header {
+    font-size: 54px;
+    font-weight: bold;
+    color: #F6E96B
+}
+
+#show-more-btn-facility {
+    display: none;
+}
+
+.show-all-facility {
+    display: none;
+}
+
+.number-footer {
+    margin-top: 3rem !important;
+    display: inline;
+    background-color: #387F39;
+    padding: 0.5rem !important;
+    border-radius: 1rem !important;
+    color: whitesmoke;
+}
+
+
+
+@media (min-width: 992px) {
+
+    .row-high {
+        width: 80%;
+    }
+
+    .index-wp {
+        background-image: url("../src/img/gv.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 200px 0px 0px;
+    }
+
+    #homepage-col {
+        height: 100vh;
+        padding-left: 3rem;
+    }
+
+
+    #text-detail-mobile {
+        display: none;
+    }
+
+    .hide-on-mobile {
+        display: flex;
+    }
+
+    .carousel-image-style {
+        width: 50%;
+        height: 50%;
+    }
+
+    .desktop {
+        display: flex;
+    }
+
+    .shm-icon {
+        width: 4rem;
+        height: 4rem;
+        padding: 0.6rem;
+        background-color: #387F39;
+        fill: black;
+        border-radius: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    #homepage-wp {
+        min-height:55vh;
+    }
+
+    #homepage-col {
+        height: 75vh;
+        text-align: center;
+    }
+
+    #btn-claim-md {
+        display: none;
+    }
+
+    #btn-claim-sm {
+        display: flex;
+        font-size: 3rem;
+    }
+
+    #h1-header {
+        font-size: 6rem;
+    }
+
+    #h1-header-body {
+        font-size: 4rem;
+        margin-bottom: 2rem !important;
+    }
+
+    #h5-header {
+        font-size: 3rem !important;
+    }
+
+    #text-cicilan {
+        text-align: center;
+        width: 93%;
+        margin: 0 2rem;
+        font-size: 3rem;
+    }
+
+    #text-harga {
+        margin: 0 2rem;
+        font-size: 3rem;
+    }
+
+    #text-detail-desktop {
+        display: none;
+    }
+
+    .paragraph-header {
+        margin-top: 2rem !important;
+        font-size: 2rem;
+    }
+
+    .advantages>h3 {
+        font-size: 2.8rem;
+        margin-top: 4rem !important;
+    }
+
+    .advantages>h2 {
+        font-size: 3.5rem;
+        margin-bottom: 4rem !important;
+    }
+
+    .advantages-body>h4 {
+        margin: 1.5rem 0 !important;
+        font-size: 4rem;
+    }
+
+    .advantages-body>p {
+        font-size: 1.8rem;
+    }
+
+    .advantages>.row>.col-lg-4>.card {
+        margin-bottom: 4rem !important;
+    }
+
+    .more-rows>.row>.col-lg-4>.card {
+        margin-bottom: 4rem !important;
+    }
+
+    #show-more-btn {
+        font-size: 2.5rem !important;
+        padding: 1.5rem 3rem !important;
+        margin-bottom: 4rem !important;
+    }
+
+    .facility>.text-light>h3 {
+        font-size: 2.8rem;
+        margin-top: 4rem !important;
+    }
+
+    .facility>.text-light>h2 {
+        font-size: 3.5rem;
+        margin-bottom: 4rem !important;
+    }
+
+    .navbar-brand {
+        font-size: 2.5rem !important;
+    }
+
+    .nav-item {
+        font-size: 2rem !important;
+    }
+
+    .facility-icons {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .facility-text>h5 {
+        font-size: 2.5rem !important;
+        text-align: center;
+        padding-right: 4rem !important;
+    }
+
+    #show-more-btn-facility {
+        display: flex;
+        font-size: 2.5rem !important;
+        padding: 1.5rem 3rem !important;
+        margin: 2.5rem 0 !important;
+        color: #387F39;
+    }
+
+    .facility-btn {
+        font-size: 2.5rem !important;
+        padding: 1.5rem 3rem !important;
+        margin: 2.5rem 0 !important;
+        color: #387F39;
+    }
+
+    .location>h3 {
+        font-size: 2.8rem;
+        margin-top: 4rem !important;
+    }
+
+    .location>h2 {
+        font-size: 3.5rem;
+        margin-bottom: 4rem !important;
+    }
+
+    .location-text {
+        margin-top: 3rem !important;
+        margin-bottom: 4rem !important;
+        font-size: 3rem;
+    }
+
+    .location-icons {
+        width: 4.5rem !important;
+        height: 4.5rem !important;
+    }
+
+    .location-paragraph {
+        margin-left: 1rem;
+        font-size: 2.5rem;
+    }
+
+    #text-detail-mobile {
+        font-size: 2.5rem !important;
+        margin-bottom: 4rem !important;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .h2-about {
+        text-align: center;
+        font-size: 3.8rem;
+        margin-bottom: 4rem !important;
+    }
+
+    .h4-about {
+        text-align: center;
+        font-size: 3.5rem;
+        margin-bottom: 2rem !important;
+    }
+
+    .shm-body>h5 {
+        font-size: 2.5rem !important;
+    }
+
+    .shm-body>p {
+        margin-top: 1rem;
+        font-size: 2.2rem !important;
+    }
+
+    .shm-icon {
+        width: 4rem;
+        height: 4rem;
+        padding: 0.6rem;
+        background-color: #387F39;
+        fill: black;
+        border-radius: 100%;
+    }
+
+    .h3-about {
+        text-align: center;
+        font-size: 3rem;
+        margin-top: 4rem !important;
+    }
+
+    .denah>h3 {
+        font-size: 2.8rem;
+        margin-top: 4rem !important;
+    }
+
+    .denah>h2 {
+        font-size: 3.5rem;
+        margin-bottom: 4rem !important;
+    }
+
+    .h4-denah {
+        font-size: 3rem !important;
+    }
+
+    .denah-detail {
+        margin-top: 4rem !important;
+    }
+
+    .denah-body>h4 {
+        font-size: 2.8rem !important;
+        color: #F6E96B;
+    }
+
+    .denah-body>h3 {
+        font-size: 2.8rem !important;
+    }
+
+    .header-promo>h5 {
+        font-size: 3rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    .header-contact>h3 {
+        margin-top: 4rem !important;
+        font-size: 3.5rem !important;
+    }
+
+    .header-contact>p {
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important;
+        font-size: 2.5rem !important;
+    }
+
+    .contact-form {
+        font-size: 2.8rem !important;
+    }
+
+    .contact-form>input {
+        font-size: 3rem !important;
+        margin-bottom: 3rem !important;
+    }
+
+    .contact-btn>a {
+        font-size: 2.3rem !important;
+        margin-top: 2rem !important;
+    }
+
+    #homepage-col>.d-flex>img {
+        display: flex;
+        justify-content: center !important;
+    }
+
+    .whatsapp-icon {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        background-color: #25D366;
+        color: white;
+        border-radius: 50%;
+        padding: 15px;
+        font-size: 80px;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .whatsapp-icon:hover {
+        background-color: #20b858;
+        text-decoration: none;
+    }
+
+    .footer-h6 {
+        font-size: 2.5rem;
+    }
+
+    .footer-h5 {
+        margin-top: 2rem !important;
+        font-size: 3rem;
+    }
+
+    .fn {
+        margin-bottom: 3rem !important;
+    }
+
+    .copyright {
+        font-size: 1.8rem !important;
+    }
+    
+}
